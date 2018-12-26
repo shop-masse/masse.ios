@@ -33,9 +33,15 @@ Management of our branches will be almost identical across all of our repositori
 > Branch from master with the purpose of being released to production immediately to resolve any critical show-stopper issue(s).
 
 
+
 ## Creating Builds
 
+Development - Fabric
 ```fastlane build_development --env Masse-Dev```
+
+Staging - Fabric
+```fastlane build_development --env Masse-QA```
+
 
 ## Releases
 
