@@ -5,8 +5,9 @@ Masse iOS client application
 
 ### Table of Contents  
 1. [Branch Management](#branch-management)
-2. [Releases](#releases)
-3. [Versioning](#versioning)
+2. [Creating Builds] (#creating-builds)
+3. [Releases](#releases)
+4. [Versioning](#versioning)
 
 
 ## Branch Management
@@ -31,6 +32,10 @@ Management of our branches will be almost identical across all of our repositori
 #### hotfix/*
 > Branch from master with the purpose of being released to production immediately to resolve any critical show-stopper issue(s).
 
+
+## Creating Builds
+
+```fastlane build_development --env Masse-Dev```
 
 ## Releases
 
